@@ -1,0 +1,515 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+
+/*Header CSS*/
+
+#header{
+    background-color: #fff;
+    border-bottom: 1px solid rgb(211, 210, 210);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#header-menu{
+    display: flex;
+    width: 70%;
+    padding: 8px 10px;
+}
+
+#headerText{
+    display: none;
+}
+
+
+
+
+
+
+/*Search CSS*/
+
+#naviSearch{
+    height: 20px;
+    margin-top: 5px;
+    text-align: center;
+    width: 190px;
+    font-size: 14px;
+    padding: 2px 5px;
+    font-family:'Raleway';
+    background-color:#fafafa;
+    border: 1px solid rgb(211, 210, 210);
+    outline: none;
+    border-radius: 3px;
+}
+
+
+
+/*Instagram title CSS*/
+
+#instagramTitle{
+    height: 30px;
+    width: 103px;
+    margin-top: 5px;
+    margin-right: 25%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/*Instagram Icons CSS*/
+
+.icons{
+    width: 24px;
+    height: 28px;
+    margin-top: 2px;
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+.home{
+    margin-left: 20%;
+}
+
+.messenger{
+    height: 24px;
+    margin-top: 5px;
+}
+
+.explore{
+    width: 28px;
+    margin-top: 3px;
+}
+
+.heart{
+    height: 22px;
+    margin-top: 7px;
+}
+
+.pfp{
+    height: 24px;
+    margin-top: 6px;
+}
+
+
+
+
+/*Body CSS*/
+
+
+
+
+/*Post Image CSS*/
+
+#post{
+    border: 1px solid rgb(211, 210, 210);
+    width: 874px;
+    height: 600px;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+#postImage{
+    padding: 0;
+}
+
+
+
+/*Post Side Items CSS*/
+
+#postSideItems{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+/*Post Author CSS*/
+
+.postAuthor{
+    display: flex;
+    background-color: #fff;
+    padding: 16px;
+    border-bottom: 1px solid rgb(211, 210, 210);
+    padding-right: 21px;
+    width: 342px;
+}
+
+#mobile{
+    display: none;
+}
+
+
+.authorImage{
+    width: 35px;
+    height: 35px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.authorName{
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+/*Post Description Top CSS*/
+
+#postDescriptionTop{
+    background-color: #fff;
+    padding: 16px;
+    display: flex;
+
+}
+
+.authorImage.desc{
+    margin-top: 15px;
+}
+
+#authorShortComment{
+    font-family:  'Raleway';
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+/*Post Description Body CSS*/
+
+#postDescriptionBody{
+    background-color: #fff;
+    padding: 16px;
+    height: 240px;
+    border-bottom: 1px solid rgb(211, 210, 210);
+
+}
+
+#postDescription{
+    font-family: 'Raleway';
+    font-weight: 500;
+    line-height: 1.5;
+    margin-left: 55px;
+}
+
+
+
+
+
+
+
+/*Post System CSS*/
+
+#postSystem{
+    background-color: #fff;
+    padding: 10px 16px;
+
+}
+
+.system{
+    width: 24px;
+    height: 28px;
+    margin-top: 3px;
+    cursor: pointer;
+    margin-left: 3%;
+}
+
+.system.heart{
+    height: 24px;
+    margin: 0;
+    width: 26px;
+}
+
+.system.comment{
+    height: 24px;
+}
+
+.system.share{
+    height: 25px;
+    margin-top: 6px;
+}
+
+.system.save{
+    width: 22px;
+    height: 24px;
+    margin-left: 210px;
+}
+
+
+
+
+
+/*Likes CSS*/
+
+#likesAmount{
+    background-color: #fff;
+    padding-left: 16px;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+
+
+}
+
+
+
+
+
+/*Time CSS*/
+
+#timeSinceBirth{
+    font-size: 12px;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #8e8e8e;
+    padding-left: 16px;
+    padding-top: 7px;
+    font-weight: 300;
+    border-bottom: 1px solid rgb(211, 210, 210);
+    background-color: #fff;
+    padding-bottom:10px;
+
+}
+
+
+
+
+
+
+
+
+/*Comment CSS*/
+
+#commentSection{
+    background-color: #fff;
+    padding: 8px;
+    display: flex;
+    padding-left: 16px;
+}
+
+#userComment{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 15px;
+    width: 300px;
+}
+
+#postButton{
+    cursor: pointer;
+    font-size: 16px;
+    font-family:"Segoe UI", Roboto, Helvetica, Arial, sans-serif ;
+    font-weight: bold;
+    color: #0095f6;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+/*Devices CSS*/
+
+@media only screen and (max-width: 1095px){
+
+    #post{
+
+        flex-direction: column;
+
+    }
+
+    #mobile{
+        display: flex;
+        width: 95.5%;
+    }
+
+    #postImage img{
+        width: 100%;
+        height: 100%;
+    }
+
+    #postDescriptionTop{
+        display: none;
+    }
+
+    #postDescriptionBody{
+        display: none;
+    }
+
+    .postAuthor{
+        display: none;
+    }
+
+    #postSystem{
+        border: 1px solid rgb(211, 210, 210);
+        border-bottom: none;
+    }
+
+    .system.save{
+        margin-left: 670px;
+    }
+
+    #likesAmount{
+        border: 1px solid rgb(211, 210, 210);
+        border-top: none;
+        border-bottom: none;
+    }
+
+    #timeSinceBirth{
+        border: 1px solid rgb(211, 210, 210);
+        border-top: none;
+        border-bottom: none;
+    }
+
+    #commentSection{
+        margin-bottom: 50px;
+        border: 1px solid rgb(211, 210, 210);
+        border-top: none;
+    }
+
+    #userComment{
+        width: 790px;
+    }
+
+}
+
+@media only screen and (max-width: 880px){
+
+    #header{
+
+        width: 880px;
+    }
+
+    #header-menu{
+        display: none;
+    }
+
+    #headerText{
+        display: block;
+        font-size: 20px;
+        font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-weight: bold;
+    }
+
+    #post{
+        margin-top: 0;
+        border-top: none
+    }
+
+    #commentSection{
+        margin-bottom: 0;
+    }
+
+}
+
+
+@media only screen and (max-width: 880px){
+
+    #headerText{
+        font-size: 42px;
+        margin: 30px;
+    }
+
+    #mobile{
+        width: 840px;
+        height: 130px;
+    }
+
+    .authorImage{
+        width: 100px;
+        height: 100px;
+        margin: 15px;
+    }
+
+    .authorName{
+
+        font-size: 36px;
+
+    }
+
+    #postSystem{
+        background-color: #fff;
+        padding: 10px 16px;
+    
+    }
+    
+    .system{
+        width: 60px;
+        height: 60px;
+        margin-top: 3px;
+        cursor: pointer;
+        margin-left: 3%;
+    }
+    
+    .system.heart{
+        width: 60px;
+        height: 60px;
+        margin: 15px;
+    }
+    
+    .system.comment{
+        width: 60px;
+        height: 60px;
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .system.share{
+        width: 60px;
+        height: 60px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        
+    }
+    
+    .system.save{
+        width: 55px;
+        height: 60px;
+        margin-left: 520px;
+        margin-bottom: 15px;
+    }
+    
+
+    #commentSection{
+        display: none;
+    }
+
+    #likesAmount{
+        font-size: 35px;
+        padding-left:30px ;
+    }
+
+    #timeSinceBirth{
+
+        border-bottom: 1px solid rgb(211, 210, 210);
+        font-size: 24px;
+        padding-left: 30px;
+        padding-top: 15px;
+        padding-bottom: 25px;
+        margin-bottom: 0;
+
+    }
+
+}

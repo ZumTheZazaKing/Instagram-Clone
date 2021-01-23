@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Images/favicon.jpeg">
+    <link rel="stylesheet" href="style.css">
+    <title>Instagram Clone</title>
+</head>
+<body>
+
+    <div id="header">
+
+        <p id="headerText">Post</p>
+
+        <div id="header-menu">
+
+            <img id="instagramTitle" src="Images/instagram title.png" alt="Instagram Title">
+            
+            <input type="text" id="naviSearch" placeholder="Search">
+
+            <img class="icons home" src="Images/home icon.png" alt="Home icon">
+            <img class="icons messenger" src="Images/messenger icon.jpg" alt="Messenger icon">
+            <img class="icons explore" src="Images/explore icon.png" alt="explore icon">
+            <img class="icons heart" src="Images/heart.jpg" alt="heart icon">
+            <img class="icons pfp" src="Images/pfp.jpg" alt="pfp icon">
+
+        </div>
+
+    </div>
+
+
+
+    <div id="post">
+
+        <div class="postAuthor" id="mobile">
+
+            <img class="authorImage" src="Images/pfp.jpg" alt="authorImage">
+
+            <p class="authorName">
+                zumthezazaking&nbsp;&nbsp;• Following
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                ... </p>
+
+        </div>
+
+        <div id="postImage">
+            <img src="Images/post.png" alt="post">
+        </div>
+
+        <div id="postSideItems">
+
+            <div class="postAuthor">
+
+                <img class="authorImage" src="Images/pfp.jpg" alt="authorImage">
+
+                <p class="authorName">
+                    zumthezazaking&nbsp;&nbsp;• Following
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;
+                    ... </p>
+
+            </div>
+
+            <div id="postDescriptionTop">
+
+                <img class="authorImage desc" src="Images/pfp.jpg" alt="authorImage">
+
+                <p class="authorName">zumthezazaking</p>
+
+                <p id="authorShortComment">This is fake</p>
+
+            </div>
+
+            <div id="postDescriptionBody">
+
+                <p id="postDescription">
+                    This is not an actual Instagram post. It is a clone,
+                    that I, ZumTheZazaKing, have made.
+                    <br><br>
+                    Original post belongs to programmer.me on Instagram
+                </p>
+
+            </div>
+
+            <div id="postSystem">
+
+                <img id="systemHeart" class="system heart" src="Images/heart.jpg" alt="" onclick="likePost()">
+                <img class="system comment" src="Images/comment icon.jpg" alt="">
+                <img class="system share" src="Images/share icon.png" alt="">
+                <img id="systemSave" class="system save" src="Images/save icon.png" alt="" onclick="savePost()">
+
+            </div>
+
+            <div id="likesAmount">
+                1,000,000 likes
+            </div>
+
+            <div id="timeSinceBirth">
+                1 DECADE AGO
+            </div>
+
+            <div id="commentSection">
+                <input type="text" id="userComment" placeholder="Add a comment...">
+
+                <p id="postButton">Post</p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    
+    <script defer src="script.js"></script>
+</body>
+</html>
